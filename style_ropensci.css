@@ -1,0 +1,158 @@
+#header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+body {
+  /*color: #34495e;*/
+  font-family: "livory", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.231;
+  height: 100%;
+    overflow-x: hidden;
+  /*color: #7f8c8d;*/
+  line-height: 1.29;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 85px;
+  width:750px;
+}
+p {
+  font-size: 100%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  line-height: 1.722169;
+
+}
+li {
+  line-height: 30px;
+  color: #2C3E50
+}
+
+code {
+  font-family: "Source Code Pro",  Menlo, Monaco, Consolas, "Courier New", monospace;
+  /*font-size: 70%;*/
+  padding: 4px 6px;
+}
+
+li code,
+p code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  /*font-size: 85%;*/
+}
+
+pre {
+ padding: 8px;
+ margin: 8px 8px 15px;
+}
+
+pre:not([class]) {
+    background-color: white;
+}
+
+.sourceCode {
+  color: #000000;
+   font-size: 85%;
+}
+
+pre code{
+ word-wrap: break-word;
+ background-size: 100%;
+ color: rgb(123, 138, 139);
+  background-color: transparent;
+ line-height: 1.6;
+ /*font-size: 14px;*/
+ padding: 0px;
+}
+
+table {
+  /*table-layout:fixed;*/
+  width: 80%;
+  margin-bottom: 30px;
+  font-family: "Source Code Pro",  Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 70%;
+  margin-left:50px;
+  margin-right:auto;
+  color: rgb(123, 138, 139);
+   word-wrap: break-word;
+
+
+
+}
+thead {
+  /*background-color: rgb(123, 138, 139);*/
+  color: black;
+  /*background-color: #f9f2f4;*/
+  background-color: #f8f8f8;
+}
+
+th{
+  font-weight: normal;
+    text-align: center;
+}
+
+th, td{
+  padding: 1px 8px;
+  /*text-align:right;*/
+
+}
+
+a {
+  /*color: #16a085;*/
+  color: #2E8ECE;
+  text-decoration: none;
+  -webkit-transition: color 0.25s, background 0.25s;
+  -moz-transition: color 0.25s, background 0.25s;
+  -o-transition: color 0.25s, background 0.25s;
+  transition: color 0.25s, background 0.25s;
+}
+a:hover {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "livory", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+}
+
+h1 {
+  font-size: 225%;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: -1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+h2 {
+  font-weight: 700;
+  font-size: 185% ;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+h3 {
+  font-weight: normal;
+  font-size: 160%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  /*margin-top: 2px;*/
+}
+h4 {
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+h5 {
+  font-weight: 500;
+}
+h6 {
+  font-weight: normal;
+}
+

@@ -1,0 +1,30 @@
+---
+title: "Using R with Spark"
+author: "Ahalogy Data Science"
+date:  "`r format(Sys.time(), '%B %e, %Y')`"
+output:
+  html_document: 
+    css: ~/Ahalogy/R/style_ropensci.css
+    highlight: tango
+    theme: NULL
+---
+
+```{r setup, eval = T, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+```{r, echo = F, message = F}
+# require(dplyr)
+# require(knitr)
+# require(tidyr)
+# require(ggplot2)
+# setwd("~/Google Drive/DS/Eugene/SparkR")
+```
+
+This guide serves to help people not intimately familiar with 'nix get up and running on an AWS EC2 Ubunutu instance.
+
+## Setting up your Machine
+```
+sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list'
+```
+
